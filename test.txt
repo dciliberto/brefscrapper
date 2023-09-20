@@ -1,0 +1,2523 @@
+<!DOCTYPE html>
+<html>
+ <head id="Head1">
+  <title>
+   Mike Trout - Stats - Batting | FanGraphs Baseball
+  </title>
+  <meta content="Mike Trout career batting statistics for Major League, Minor League, and postseason baseball" data-react-helmet="true" id="description" name="description"/>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript">
+  </script>
+  <link href="https://www.fangraphs.com/dist/css/head_section-style.css?v=4e279543928cf1617938" rel="stylesheet"/>
+  <script src="https://www.fangraphs.com/dist/common-bundle.js?v=4e279543928cf1617938">
+  </script>
+  <script src="https://www.fangraphs.com/dist/head_section-bundle.js?v=4e279543928cf1617938">
+  </script>
+  <link href="https://www.fangraphs.com/dist/css/mobile-style.css?v=4e279543928cf1617938" rel="stylesheet"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.0/umd/react.production.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.0/umd/react-dom.production.min.js"></script> -->
+  <script src="//www.fangraphs.com/js/fg-head-highcharts?v=p51SlUFUfRtBRZUF9OxjmyzVtjvbCbZvTlDgSV8YYhE1" type="text/javascript">
+  </script>
+  <link href="//www.fangraphs.com/favicon.ico" rel="shortcut icon"/>
+  <link href="//www.fangraphs.com/opensearch.xml" rel="search" title="FanGraphs Search" type="application/opensearchdescription+xml"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <meta content="//www.fangraphs.com/blogs/wp-content/uploads/2016/04/flat_fg_green.png" property="og:image">
+   <script type="text/javascript">
+    document.cookie = 'fg__ab-test=enabled;domain=.fangraphs.com;path=/';
+
+                    if (getCookie('fg__ab-test') !== 'enabled') {
+                                                
+                        console.log('ab-test disabled');
+
+                        var ezstandalone = ezstandalone || {};
+                        ezstandalone.cmd = ezstandalone.cmd || [];
+                        ezstandalone.cmd.push(function() {
+                            ezstandalone.define(104,125,126,127,128,129,130,131,132);
+                            ezstandalone.enable();
+                            ezstandalone.display();                     
+                        });
+
+                        $.getScript('//www.ezojs.com/ezoic/sa.min.js', function () {
+                        });
+
+                        console.log('ezoic enabled');
+
+                        window.assertive = {
+        debug: true, // for dynamic debug see: https://suite.assertiveyield.com/docs/tracking-client#debug-mode
+        entityId: "tRW2xasmrSZrN7QWk",
+        analytics: {
+            sampleRate: 1, // 1 = all sessions are tracked, 0.5 = 50% of the sessions are tracked...
+            logUnfilled: true,
+            override: {
+                pbjs: 'epbjs',
+            },
+            custom: {
+                // optional dimensions for custom data, they expect null or string
+                layout: null,
+                userState: null,
+                custom_1: null,
+                custom_2: null,
+                custom_3: null,
+                custom_4: null,
+                custom_5: null,
+                custom_6: null,
+                custom_7: null,
+                custom_8: null,
+                custom_9: null,
+            },
+        },
+    };
+
+                    }
+                    else {
+
+                        if (getCookie('abtest_AQ90BKID') == '') {
+
+                            var abrandom = Math.floor(Math.random() * 10) + 1;
+                            var abtest = 'ayield'
+
+                            if (abrandom < 10) { abtest = 'ayield' }
+                            else { abtest = 'ezoic' }
+
+                            document.cookie = 'abtest_AQ90BKID=' + abtest + ';domain=.fangraphs.com;path=/';
+
+                        }
+
+                        var abcookie = getCookie('abtest_AQ90BKID');
+                    
+                        console.log('abcookie=' + abcookie);
+                    
+                        if (abcookie == 'ayield') {
+
+                            $.getScript('//yield-manager-deployment.assertive.workers.dev/tRW2xasmrSZrN7QWk', function () {
+                            });
+
+                            console.log('yield manager enabled');
+
+                                window.assertive = {
+        debug: true, // for dynamic debug see: https://suite.assertiveyield.com/docs/tracking-client#debug-mode
+        entityId: "tRW2xasmrSZrN7QWk",
+        analytics: {
+            sampleRate: 1, // 1 = all sessions are tracked, 0.5 = 50% of the sessions are tracked...
+            logUnfilled: true,
+            custom: {
+                // optional dimensions for custom data, they expect null or string
+                layout: null,
+                userState: null,
+                custom_1: null,
+                custom_2: null,
+                custom_3: null,
+                custom_4: null,
+                custom_5: null,
+                custom_6: null,
+                custom_7: null,
+                custom_8: null,
+                custom_9: null,
+            },
+        },
+    };
+    window.assertive.hash = {
+        generator: 'server',
+        values: 5000,
+        key: function () {
+            return [localStorage.getItem('ay_utm_s')].join('|');
+        }
+    };
+    window.assertive.floor = {
+        enabled: true,
+        priceBuckets: { min: 0, max: 3, increment: 0.05 },
+        addToHashKey: true,
+        limit: {
+            percentage: 0.8
+        }
+    };  
+
+                        }
+                        else {
+
+                            var ezstandalone = ezstandalone || {};
+                            ezstandalone.cmd = ezstandalone.cmd || [];
+                            ezstandalone.cmd.push(function() {
+                                ezstandalone.define(104,125,126,127,128,129,130,131,132);
+                                ezstandalone.enable();
+                                ezstandalone.display();                     
+                            });
+
+                            $.getScript('//www.ezojs.com/ezoic/sa.min.js', function () {
+                            });
+
+                            console.log('ezoic enabled');
+
+                                window.assertive = {
+        debug: true, // for dynamic debug see: https://suite.assertiveyield.com/docs/tracking-client#debug-mode
+        entityId: "tRW2xasmrSZrN7QWk",
+        analytics: {
+            sampleRate: 1, // 1 = all sessions are tracked, 0.5 = 50% of the sessions are tracked...
+            logUnfilled: true,
+            override: {
+                pbjs: 'epbjs',
+            },
+            custom: {
+                // optional dimensions for custom data, they expect null or string
+                layout: null,
+                userState: null,
+                custom_1: null,
+                custom_2: null,
+                custom_3: null,
+                custom_4: null,
+                custom_5: null,
+                custom_6: null,
+                custom_7: null,
+                custom_8: null,
+                custom_9: null,
+            },
+        },
+    };
+
+                        }
+                    }
+
+                    function getCookie(cname) {
+                        let name = cname + '=';
+                        let decodedCookie = decodeURIComponent(document.cookie);
+                        let ca = decodedCookie.split(';');
+                        for (let i = 0; i < ca.length; i++) {
+                            let c = ca[i];
+                            while (c.charAt(0) == ' ') {
+                                c = c.substring(1);
+                            }
+                            if (c.indexOf(name) == 0) {
+                                return c.substring(name.length, c.length);
+                            }
+                        }
+                        return '';
+                    }
+   </script>
+   <script>
+    !function(n){if(!window.cnx){window.cnx={},window.cnx.cmd=[];var t=n.createElement('iframe');t.src='javascript:false'; t.display='none',t.onload=function(){var n=t.contentWindow.document,c=n.createElement('script');c.src='//cd.connatix.com/connatix.player.js?cid=9da7fbbc-d20c-4a09-a66b-cf285ed98fa5',c.setAttribute('async','1'),c.setAttribute('type','text/javascript'),n.body.appendChild(c)},n.head.appendChild(t)}}(document);
+   </script>
+   <script async="" src="https://trw2xasmrszrn7qwk.ay.delivery/client-v2.js">
+   </script>
+   <link href="https://www.fangraphs.com/dist/css/player_pages_new-style.css?v=4e279543928cf1617938" rel="stylesheet"/>
+  </meta>
+ </head>
+ <body data-server="light-mode ">
+  <div id="wrapper">
+   <div id="top">
+    <div class="header-chat-alert-spacer" style="visibility: hidden">
+     <a class="header-chat-alert-text">
+     </a>
+    </div>
+    <div class="header__wrapper">
+     <div id="header_ra-spacer">
+     </div>
+     <header>
+      <div id="header_ra-content">
+      </div>
+      <div class="top-logo sticky">
+       <div class="top-logo-bkgd fg">
+        <a href="http://www.fangraphs.com/" target="_top">
+         <div class="top-logo-img fg">
+         </div>
+        </a>
+       </div>
+      </div>
+      <!DOCTYPE html>
+      <head>
+       <meta charset="utf-8"/>
+       <meta content="width=device-width" name="viewport"/>
+       <meta content="2" name="next-head-count"/>
+       <link as="style" href="https://www.fangraphs.com/_next/static/css/228dac223202225e.css" rel="preload"/>
+       <link data-n-g="" href="https://www.fangraphs.com/_next/static/css/228dac223202225e.css" rel="stylesheet"/>
+       <link as="style" href="https://www.fangraphs.com/_next/static/css/78640f02366066a5.css" rel="preload"/>
+       <link data-n-p="" href="https://www.fangraphs.com/_next/static/css/78640f02366066a5.css" rel="stylesheet"/>
+       <noscript data-n-css="">
+       </noscript>
+       <script defer="" nomodule="" src="https://www.fangraphs.com/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/webpack-36d12a75f0098f30.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/framework-50116e63224baba2.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/main-9f5a2ddcea81f3c5.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/pages/_app-f3b0450ffeddbbff.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/75fc9c18-4d59f40a6e1b3add.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/162-7b8c2330c12991ce.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/895-da15d0a05a6386ae.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/chunks/pages/__dotnet-shim/nav-1a627bd818df1a25.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/CO8z1a_YA5m75j4e0u14k/_buildManifest.js">
+       </script>
+       <script defer="" src="https://www.fangraphs.com/_next/static/CO8z1a_YA5m75j4e0u14k/_ssgManifest.js">
+       </script>
+      </head>
+      <div id="__next">
+       <div class="nav-main__wrapper">
+        <nav class="nav-main" id="navBar">
+         <div class="nav-mobile-bar">
+          <div class="nav-mobile-button" id="nav__mobile-buton">
+          </div>
+          <div class="search-bar" id="rootSearch">
+           <div class="search-bar">
+            <div class="search-bar-input-wrapper">
+             <input class="search-query" form="dummy" placeholder="Player &amp; Blog Search" type="text" value=""/>
+            </div>
+            <style data-emotion="css 1iba63o">
+             .css-1iba63o{z-index:10000000001;}@media print{.css-1iba63o{position:absolute!important;}}
+            </style>
+           </div>
+          </div>
+          <div class="nav-mobile-fill">
+          </div>
+          <div class="menu-item nav-mobile-login" data-full="true">
+           <a href="http://www.fangraphs.com/blogs/wp-login.php?redirect_to=null">
+            <div class="menu-item-label">
+             <div class="label-account">
+              Sign In
+             </div>
+             <div class="icon-account signed-out">
+             </div>
+            </div>
+           </a>
+          </div>
+         </div>
+         <div class="nav-search-players">
+         </div>
+         <div class="nav-mobile-menu">
+          <ul class="menu-top">
+           <li class="menu-item" data-sub="home">
+            <div class="menu-item-label">
+             Support FanGraphs
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-link">
+               <a href="https://plus.fangraphs.com/product/fangraphs-membership/">
+                FanGraphs Membership
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="https://breakingt.com/collections/fangraphs">
+                FanGraphs Shirts
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="https://plus.fangraphs.com/shop/">
+                FanGraphs Mugs
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="https://plus.fangraphs.com/product/fangraphs-gift-membership/">
+                Gift a Membership
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="https://plus.fangraphs.com/product/fangraphs-donation/">
+                Donate to FanGraphs
+               </a>
+              </div>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-sub="games">
+            <div class="menu-item-label">
+             Fantasy
+            </div>
+            <div class="menu-sub">
+             <div class="menu-sub-header">
+              Fantasy Tools
+             </div>
+             <a aria-label="Fantasy Expert Rankings" href="https://www.fangraphs.com/fantasy-tools/rankings/expert">
+              2023 Fantasy Expert Rankings
+             </a>
+             <br/>
+             <a href="//www.fangraphs.com/fantasy-tools/auction-calculator">
+              Auction Calculator
+             </a>
+             <hr/>
+             <div class="menu-sub-link">
+              <a href="//ottoneu.fangraphs.com/">
+               Ottoneu Fantasy Baseball
+              </a>
+             </div>
+             <a href="//ottoneu.fangraphs.com/">
+              Signup
+             </a>
+             ,
+             <!-- -->
+             <a href="//ottoneu.fangraphs.com/support">
+              FAQ
+             </a>
+             ,
+             <!-- -->
+             <a href="//www.fangraphs.com/fantasy/category/ottoneu/">
+              Blog Posts
+             </a>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="blogs">
+            <div class="menu-item-label">
+             Blogs
+            </div>
+            <div class="menu-sub">
+             <div class="menu-sub-link">
+              <a href="/blog-roll">
+               Blog Roll
+              </a>
+             </div>
+             <hr/>
+             <div class="menu-sub-ajax">
+              <div class="menusub_mid">
+               <div class="menu-blog fg">
+                <div class="menu-blog-header">
+                 <a href="https://www.fangraphs.com/blogs/">
+                  FanGraphs
+                 </a>
+                </div>
+                <div id="menu-blog-roll-fg">
+                 <ul>
+                  <li>
+                   <a href="//www.fangraphs.com/blogs/jay-jaffe-fangraphs-chat-9-19-23">
+                    Jay Jaffe FanGraphs Chat - 9/19/23
+                   </a>
+                  </li>
+                  <li>
+                   <a href="//www.fangraphs.com/blogs/for-one-night-wainwright-summons-vintage-form-to-claim-200th-win">
+                    For One Night, Wainwright Summons Vintage Form to Claim 200th Win
+                   </a>
+                  </li>
+                  <li>
+                   <a href="//www.fangraphs.com/blogs/can-cristian-mena-and-nick-nastrini-miss-bats-in-the-big-leagues">
+                    Can Cristian Mena and Nick Nastrini Miss Bats in the Big Leagues?
+                   </a>
+                  </li>
+                  <li>
+                   <a href="//www.fangraphs.com/blogs/what-makes-freddie-freeman-special-in-one-at-bat">
+                    What Makes Freddie Freeman Special, in One At-Bat
+                   </a>
+                  </li>
+                 </ul>
+                </div>
+                <div class="menu-blog-podcast">
+                 <span>
+                  Podcasts:
+                 </span>
+                 <a href="https://www.fangraphs.com/blogs/category/podcast/">
+                  FanGraphs Audio
+                 </a>
+                 |
+                 <!-- -->
+                 <a href="https://www.fangraphs.com/blogs/category/effectively-wild/">
+                  Effectively Wild
+                 </a>
+                 |
+                 <!-- -->
+                 <a href="https://blogs.fangraphs.com/category/chin-music/">
+                  Chin Music
+                 </a>
+                </div>
+               </div>
+               <hr/>
+               <div class="menu-blog fg">
+                <div class="menu-blog-header">
+                 <a href="https://www.fangraphs.com/prospects/">
+                  FanGraphs Prospects
+                 </a>
+                </div>
+               </div>
+               <hr/>
+               <div class="menu-blog rg">
+                <div class="menu-blog-header">
+                 <a href="https://www.fangraphs.com/rotographs">
+                  RotoGraphs
+                 </a>
+                </div>
+                <div id="menu-blog-roll-rg">
+                 <ul>
+                  <li>
+                   <a href="//www.fangraphs.com/fantasy/big-kid-adds-week-26">
+                    Big Kid Adds (Week 26)
+                   </a>
+                  </li>
+                  <li>
+                   <a href="//www.fangraphs.com/fantasy/ottoneu-sp-drip-finding-under-rostered-starters-sept-19">
+                    Ottoneu SP Drip: Finding Under-rostered Starters
+                   </a>
+                  </li>
+                 </ul>
+                </div>
+                <div class="menu-blog-podcast">
+                 <span>
+                  Podcasts:
+                 </span>
+                 <a href="https://www.fangraphs.com/fantasy/category/podcast/">
+                  The Sleeper and The Bust
+                 </a>
+                 |
+                 <!-- -->
+                 <a href="https://www.fangraphs.com/fantasy/category/field-of-streams/">
+                  Field of Streams
+                 </a>
+                 |
+                 <!-- -->
+                 <a href="https://fantasy.fangraphs.com/category/beat-the-shift/">
+                  Beat the Shift
+                 </a>
+                </div>
+               </div>
+               <hr/>
+               <div class="menu-blog com">
+                <div class="menu-blog-header">
+                 <a href="https://www.fangraphs.com/community/">
+                  Community Research
+                 </a>
+                </div>
+                <div id="menu-blog-roll-com">
+                 <ul>
+                  <li>
+                   <a href="//www.fangraphs.com/community/starting-pitchers-arent-leaning-on-their-best-pitches">
+                    Starting Pitchers Aren’t Leaning On Their Best Pitches
+                   </a>
+                  </li>
+                 </ul>
+                </div>
+               </div>
+               <hr/>
+               <div class="menu-blog-podcast">
+                <span>
+                 Archived Blogs:
+                </span>
+                <a class="tht" href="https://www.fangraphs.com/tht/">
+                 The Hardball Times
+                </a>
+                |
+                <!-- -->
+                <a class="not" href="https://www.fangraphs.com/not/">
+                 NotGraphs
+                </a>
+                |
+                <!-- -->
+                <a class="tg" href="https://www.fangraphs.com/techgraphs/">
+                 TechGraphs
+                </a>
+                |
+                <!-- -->
+                <a class="fg" href="https://www.fangraphs.com/plus/">
+                 FanGraphs+
+                </a>
+               </div>
+               <div class="menu-blog-podcast">
+                <span>
+                 Archived THT:
+                </span>
+                <a class="tht" href="//www.fangraphs.com/tht/tht-live/">
+                 THT Live
+                </a>
+                |
+                <!-- -->
+                <a class="tht" href="//www.fangraphs.com/tht/category/tht-dispatch/">
+                 Dispatch
+                </a>
+                |
+                <!-- -->
+                <a class="tht" href="//www.fangraphs.com/tht/category/tht-fantasy/">
+                 Fantasy
+                </a>
+                |
+                <!-- -->
+                <a class="tht" href="//www.fangraphs.com/tht/category/shysterball/">
+                 ShysterBall
+                </a>
+               </div>
+               <div class="menu-blog-podcast">
+                <span>
+                 Archived Podcasts:
+                </span>
+                <a class="tht" href="//www.fangraphs.com/tht/stealing-home/">
+                 Stealing Home
+                </a>
+                |
+                <!-- -->
+                <a class="tht" href="//www.fangraphs.com/tht/doing-it-for-bartolo/">
+                 Doing It For Bartolo
+                </a>
+                |
+                <!-- -->
+                <a class="rg" href="//www.fangraphs.com/fantasy/category/ottographs-podcast/">
+                 OttoGraphs
+                </a>
+                |
+                <!-- -->
+                <a class="fg" href="https://www.fangraphs.com/blogs/category/ump-the-untitled-mcdongenhagen-project/">
+                 UMP: The Untitled McDongenhagen Project
+                </a>
+               </div>
+              </div>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="projections">
+            <div class="menu-item-label">
+             Projections
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-header">
+               2023 Pre-Season Projections
+              </div>
+             </div>
+             <a aria-label="ZiPS" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=zips">
+              ZiPS
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="ZiPS DC" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=zipsdc">
+              ZiPS DC
+             </a>
+             <br/>
+             <a aria-label="Steamer" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=steamer">
+              Steamer
+             </a>
+             <br/>
+             <a aria-label="Depth Charts" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=fangraphsdc">
+              Depth Charts
+             </a>
+             <br/>
+             <a aria-label="ATC" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=atc">
+              ATC
+             </a>
+             <br/>
+             <a aria-label="THE BAT" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=thebat">
+              THE BAT
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="THE BAT X" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=thebatx">
+              THE BAT X
+             </a>
+             <hr/>
+             <div class="menu-sub-header">
+              2023 600 PA / 200 IP Projections
+             </div>
+             <a href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=steamer600">
+              Steamer600
+             </a>
+             ,
+             <!-- -->
+             <a href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=steamer600u">
+              Steamer600 (Update)
+             </a>
+             <hr/>
+             <div class="menu-sub-header">
+              2023 Updated In-Season Projections
+             </div>
+             <a aria-label="ZiPS (RoS)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=rzips">
+              ZiPS (RoS)
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="ZiPS (Update)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=uzips">
+              ZiPS (Update)
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="ZiPS (Update)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=rzipsdc">
+              ZiPS DC (RoS)
+             </a>
+             <br/>
+             <a aria-label="Steamer (RoS)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=steamerr">
+              Steamer (RoS)
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="Steamer (Update)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=steameru">
+              Steamer (Update)
+             </a>
+             <br/>
+             <a aria-label="Depth Charts (RoS)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=rfangraphsdc">
+              Depth Charts (RoS)
+             </a>
+             <br/>
+             <a aria-label="ATC DC (RoS)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=ratcdc">
+              ATC DC (RoS)
+             </a>
+             <br/>
+             <a aria-label="THE BAT (RoS)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=rthebat">
+              THE BAT (RoS)
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="THE BAT X (RoS)" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=rthebatx">
+              THE BAT X (RoS)
+             </a>
+             <hr/>
+             <div class="menu-sub-header">
+              3 Year Projections
+             </div>
+             <a aria-label="ZiPS 2024" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=zipsp1">
+              ZiPS 2024
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="ZiPS 2025" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=zipsp2">
+              ZiPS 2025
+             </a>
+             <hr/>
+             <div class="menu-sub-header">
+              On-Pace Leaders
+             </div>
+             <a aria-label="Every Game Played" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=onpaceegp">
+              Every Game Played
+             </a>
+             ,
+             <!-- -->
+             <a aria-label="Games Played %" href="https://www.fangraphs.com/projections?pos=all&amp;stats=bat&amp;type=onpacegpp">
+              Games Played %
+             </a>
+             <hr/>
+             <div class="menu-sub-link">
+              <a href="https://www.fangraphs.com/projections/cy-young">
+               Cy Young Award Projections
+              </a>
+             </div>
+             <hr/>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/fantasy-tools/auction-calculator">
+               Auction Calculator
+              </a>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="scores">
+            <div class="menu-item-label">
+             Scores
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-header">
+               Today
+              </div>
+              <a href="//www.fangraphs.com/livescoreboard.aspx">
+               Live Scoreboard
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - Probable Pitchers" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=0&amp;team=0&amp;rost=0&amp;age=0&amp;filter=&amp;players=p2023-09-19">
+               Probable Pitchers
+              </a>
+              <br/>
+              <a href="//www.fangraphs.com/scores/live-leaderboards">
+               Live Daily Leaderboards
+              </a>
+              <hr/>
+              <div class="menu-sub-header">
+               Win Probability &amp; Box Scores
+              </div>
+              <a href="//www.fangraphs.com/scoreboard.aspx">
+               2023
+              </a>
+              ,
+              <a href="//www.fangraphs.com/scoreboard.aspx?date=2022-11-05">
+               2022
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/scoreboard.aspx?date=2021-11-02">
+               2021
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/scoreboard.aspx?date=2020-10-27">
+               2020
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/scoreboard.aspx?date=2019-10-30">
+               2019
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/scoreboard.aspx?date=2018-11-01">
+               2018
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/scoreboard.aspx?date=2017-11-01">
+               2017
+              </a>
+              ...
+             </div>
+             <div>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="standings">
+            <div class="menu-item-label">
+             Standings
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/depthcharts.aspx?position=Standings">
+                2023 Projected Standings
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/standings/playoff-odds">
+                2023 Playoff Odds
+               </a>
+               ,
+               <!-- -->
+               <a href="//www.fangraphs.com/standings/playoff-odds-graphs">
+                Playoff Odds Graphs
+               </a>
+               <br/>
+               <a href="//www.fangraphs.com/standings/playoff-odds/post-season-zips">
+                ZiPS Postseason Game-By-Game Odds
+               </a>
+              </div>
+              <table class="menu-standings-table">
+               <tbody>
+                <tr>
+                 <td>
+                  <div class="menu-sub-header">
+                   AL East
+                  </div>
+                  <div id="menu-standings-ale">
+                   <div>
+                   </div>
+                  </div>
+                  <div class="menu-sub-header">
+                   AL Central
+                  </div>
+                  <div id="menu-standings-alc">
+                   <div>
+                   </div>
+                  </div>
+                  <div class="menu-sub-header">
+                   AL West
+                  </div>
+                  <div id="menu-standings-alw">
+                   <div>
+                   </div>
+                  </div>
+                 </td>
+                 <td class="menu-table-sep">
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   NL East
+                  </div>
+                  <div id="menu-standings-nle">
+                   <div>
+                   </div>
+                  </div>
+                  <div class="menu-sub-header">
+                   NL Central
+                  </div>
+                  <div id="menu-standings-nlc">
+                   <div>
+                   </div>
+                  </div>
+                  <div class="menu-sub-header">
+                   NL West
+                  </div>
+                  <div id="menu-standings-nlw">
+                   <div>
+                   </div>
+                  </div>
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="leaders">
+            <div class="menu-item-label">
+             Leaders
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-header">
+               Major League Leaders
+              </div>
+              <div class="menu-sub-header">
+               Batting:
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2023" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=0">
+                2023
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2022" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2022&amp;month=0&amp;season1=2022&amp;ind=0">
+                2022
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2021" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2021&amp;month=0&amp;season1=2021&amp;ind=0">
+                2021
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2020" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2020&amp;month=0&amp;season1=2020&amp;ind=0">
+                2020
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2019" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2019&amp;month=0&amp;season1=2019&amp;ind=0">
+                2019
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - Career" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2023&amp;month=0&amp;season1=1871&amp;ind=0&amp;team=0&amp;rost=0&amp;players=0">
+                Career
+               </a>
+              </div>
+              <div class="menu-sub-header">
+               Pitching:
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2023" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=0">
+                2023
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2022" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2022&amp;month=0&amp;season1=2022&amp;ind=0">
+                2022
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2021" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2021&amp;month=0&amp;season1=2021&amp;ind=0">
+                2021
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2020" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2020&amp;month=0&amp;season1=2020&amp;ind=0">
+                2020
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2019" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2019&amp;month=0&amp;season1=2019&amp;ind=0">
+                2019
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - Career" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2023&amp;month=0&amp;season1=1871&amp;ind=0&amp;team=0&amp;rost=0&amp;players=0">
+                Career
+               </a>
+              </div>
+              <div class="menu-sub-header">
+               Fielding:
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2023" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=fld&amp;lg=all&amp;qual=y&amp;type=0&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=0">
+                2023
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2022" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=fld&amp;lg=all&amp;qual=y&amp;type=0&amp;season=2022&amp;month=0&amp;season1=2022&amp;ind=0">
+                2022
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2021" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=fld&amp;lg=all&amp;qual=y&amp;type=0&amp;season=2021&amp;month=0&amp;season1=2021&amp;ind=0">
+                2021
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2020" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=fld&amp;lg=all&amp;qual=y&amp;type=0&amp;season=2020&amp;month=0&amp;season1=2020&amp;ind=0">
+                2020
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - 2019" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=fld&amp;lg=all&amp;qual=y&amp;type=0&amp;season=2019&amp;month=0&amp;season1=2019&amp;ind=0">
+                2019
+               </a>
+               ,
+               <!-- -->
+               <a aria-label="Major League Leaderboards - Career" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=fld&amp;lg=all&amp;qual=y&amp;type=0&amp;season=2023&amp;month=0&amp;season1=1871&amp;ind=0&amp;team=0&amp;rost=0&amp;players=0">
+                Career
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/leaders/splits-leaderboards">
+                Splits Leaderboards
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/leaders/season-stat-grid">
+                Season Stat Grid
+               </a>
+              </div>
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/leaders/special/60-game-span">
+                60-Game Span Leaderboards (Special)
+               </a>
+              </div>
+              <hr/>
+              <div class="menu-sub-header">
+               KBO Leaders
+               <br/>
+               <a href="https://www.fangraphs.com/leaders/international">
+                Batting
+               </a>
+               ,
+               <!-- -->
+               <a href="https://www.fangraphs.com/leaders/international?&amp;stats=pit">
+                Pitching
+               </a>
+              </div>
+              <hr/>
+              <div class="menu-sub-header">
+               Minor League Leaders
+              </div>
+              AAA:
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=2&amp;qual=y&amp;type=0&amp;season=2023">
+               International League
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=4&amp;qual=y&amp;type=0&amp;season=2023">
+               Pacific Coast League
+              </a>
+              <br/>
+              AA:
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=5&amp;qual=y&amp;type=0&amp;season=2023">
+               Eastern League
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=6&amp;qual=y&amp;type=0&amp;season=2023">
+               Southern League
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=7&amp;qual=y&amp;type=0&amp;season=2023">
+               Texas League
+              </a>
+              <br/>
+              A+:
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=11&amp;qual=y&amp;type=0&amp;season=2023">
+               Midwest League
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=14&amp;qual=y&amp;type=0&amp;season=2023">
+               South Atlantic League
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=13&amp;qual=y&amp;type=0&amp;season=2023">
+               Northwest League
+              </a>
+              <br/>
+              A:
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=8&amp;qual=y&amp;type=0&amp;season=2023">
+               California League
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=9&amp;qual=y&amp;type=0&amp;season=2023">
+               Carolina League
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=10&amp;qual=y&amp;type=0&amp;season=2023">
+               Florida State League
+              </a>
+              <br/>
+              CPX:
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=16&amp;qual=y&amp;type=0&amp;season=2022">
+               Arizona
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=17&amp;qual=y&amp;type=0&amp;season=2022">
+               Florida
+              </a>
+              <br/>
+              R:
+              <a href="//www.fangraphs.com/leaders/minor-league?pos=all&amp;stats=bat&amp;lg=30&amp;qual=y&amp;type=0&amp;season=2022">
+               Dominican Summer League
+              </a>
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/minorleaders.aspx">
+                Legacy Minor League Leaderboards
+               </a>
+              </div>
+              <hr/>
+              <div class="menu-sub-header">
+               WAR Tools
+              </div>
+              <a aria-label="Combined Leaderboards" href="https://www.fangraphs.com/leaders/war" target="_top">
+               Combined WAR Leaderboards
+              </a>
+              <br/>
+              <a href="//www.fangraphs.com/graphsw.aspx">
+               WAR Graphs
+              </a>
+              <div class="menu-sub-header">
+               WPA Tools
+              </div>
+              <a href="//www.fangraphs.com/tools/wpa-inquirer">
+               WPA Inquirer
+              </a>
+              <br/>
+              <div class="menu-sub-header">
+               Rookie Leaders
+              </div>
+              <a aria-label="Major League Leaderboards - Batters 2023" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=2">
+               Batters 2023
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - Pitchers 2023" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=8&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=2">
+               Pitchers 2023
+              </a>
+              <div class="menu-sub-header">
+               Splits Leaders
+              </div>
+              Batters:
+              <a aria-label="Major League Leaderboards - 2023 vs L" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=13&amp;season1=2023&amp;ind=0">
+               vs L
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2023 vs R" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=14&amp;season1=2023&amp;ind=0">
+               vs R
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2023 Home" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=15&amp;season1=2023&amp;ind=0">
+               Home
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2023 Away" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=16&amp;season1=2023&amp;ind=0">
+               Away
+              </a>
+              <br/>
+              Pitchers:
+              <a aria-label="Major League Leaderboards - 2023 vs L" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=13&amp;season1=2023&amp;ind=0">
+               vs L
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2023 vs R" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=14&amp;season1=2023&amp;ind=0">
+               vs R
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2023 Home" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=15&amp;season1=2023&amp;ind=0">
+               Home
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2023 Away" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=y&amp;type=1&amp;season=2023&amp;month=16&amp;season1=2023&amp;ind=0">
+               Away
+              </a>
+              <div class="menu-sub-header">
+              </div>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="teams">
+            <div class="menu-item-label">
+             Teams
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-header">
+               Team Batting Stats
+              </div>
+              <a aria-label="Major League Leaderboards - 2023" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=0&amp;team=0,ts&amp;rost=&amp;age=&amp;filter=&amp;players=0">
+               2023
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2022" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2022&amp;month=0&amp;season1=2022&amp;ind=0&amp;team=0,ts&amp;rost=&amp;age=&amp;filter=&amp;players=0">
+               2022
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2021" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2021&amp;month=0&amp;season1=2021&amp;ind=0&amp;team=0,ts&amp;rost=&amp;age=&amp;filter=&amp;players=0">
+               2021
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2020" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2020&amp;month=0&amp;season1=2020&amp;ind=0&amp;team=0,ts&amp;rost=&amp;age=&amp;filter=&amp;players=0">
+               2020
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2019" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2019&amp;month=0&amp;season1=2019&amp;ind=0&amp;team=0,ts&amp;rost=&amp;age=&amp;filter=&amp;players=0">
+               2019
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2018" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=bat&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2018&amp;month=0&amp;season1=2018&amp;ind=0&amp;team=0,ts&amp;rost=&amp;age=&amp;filter=&amp;players=0">
+               2018
+              </a>
+              ...
+              <div class="menu-sub-header">
+               Team Pitching Stats
+              </div>
+              <a aria-label="Major League Leaderboards - 2023" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2023&amp;month=0&amp;season1=2023&amp;ind=0&amp;team=0,ts&amp;rost=0&amp;age=0&amp;filter=&amp;players=0">
+               2023
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2022" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2022&amp;month=0&amp;season1=2022&amp;ind=0&amp;team=0,ts&amp;rost=0&amp;age=0&amp;filter=&amp;players=0">
+               2022
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2021" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2021&amp;month=0&amp;season1=2021&amp;ind=0&amp;team=0,ts&amp;rost=0&amp;age=0&amp;filter=&amp;players=0">
+               2021
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2020" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2020&amp;month=0&amp;season1=2020&amp;ind=0&amp;team=0,ts&amp;rost=0&amp;age=0&amp;filter=&amp;players=0">
+               2020
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2019" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2019&amp;month=0&amp;season1=2019&amp;ind=0&amp;team=0,ts&amp;rost=0&amp;age=0&amp;filter=&amp;players=0">
+               2019
+              </a>
+              ,
+              <!-- -->
+              <a aria-label="Major League Leaderboards - 2018" href="https://www.fangraphs.com/leaders/major-league?pos=all&amp;stats=pit&amp;lg=all&amp;qual=0&amp;type=8&amp;season=2018&amp;month=0&amp;season1=2018&amp;ind=0&amp;team=0,ts&amp;rost=0&amp;age=0&amp;filter=&amp;players=0">
+               2018
+              </a>
+              ...
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/depthcharts.aspx?position=Team">
+                Team WAR Totals (RoS)
+               </a>
+              </div>
+              <table class="menu-team-table">
+               <tbody>
+                <tr>
+                 <td>
+                  <div class="menu-sub-header">
+                   AL East
+                  </div>
+                  <a href="//www.fangraphs.com/teams/blue-jays">
+                   Blue Jays
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=14">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/orioles">
+                   Orioles
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=2">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/rays">
+                   Rays
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=12">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/red-sox">
+                   Red Sox
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=3">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/yankees">
+                   Yankees
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=9">
+                   DC
+                  </a>
+                  <br/>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   AL Central
+                  </div>
+                  <a href="//www.fangraphs.com/teams/guardians">
+                   Guardians
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=5">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/royals">
+                   Royals
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=7">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/tigers">
+                   Tigers
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=6">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/twins">
+                   Twins
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=8">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/white-sox">
+                   White Sox
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=4">
+                   DC
+                  </a>
+                  <br/>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   AL West
+                  </div>
+                  <a href="//www.fangraphs.com/teams/angels">
+                   Angels
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=1">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/astros">
+                   Astros
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=21">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/athletics">
+                   Athletics
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=10">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/mariners">
+                   Mariners
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=11">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/rangers">
+                   Rangers
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=13">
+                   DC
+                  </a>
+                  <br/>
+                 </td>
+                </tr>
+                <tr>
+                 <td>
+                  <div class="menu-sub-header">
+                   NL East
+                  </div>
+                  <a href="//www.fangraphs.com/teams/braves">
+                   Braves
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=16">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/marlins">
+                   Marlins
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=20">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/mets">
+                   Mets
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=25">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/nationals">
+                   Nationals
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=24">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/phillies">
+                   Phillies
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=26">
+                   DC
+                  </a>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   NL Central
+                  </div>
+                  <a href="//www.fangraphs.com/teams/brewers">
+                   Brewers
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=23">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/cardinals">
+                   Cardinals
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=28">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/cubs">
+                   Cubs
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=17">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/pirates">
+                   Pirates
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=27">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/reds">
+                   Reds
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=18">
+                   DC
+                  </a>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   NL West
+                  </div>
+                  <a href="//www.fangraphs.com/teams/diamondbacks">
+                   D-backs
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=15">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/dodgers">
+                   Dodgers
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=22">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/giants">
+                   Giants
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=30">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/padres">
+                   Padres
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=29">
+                   DC
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/teams/rockies">
+                   Rockies
+                  </a>
+                  |
+                  <a href="//www.fangraphs.com/depthcharts.aspx?position=ALL&amp;teamid=19">
+                   DC
+                  </a>
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+              <div class="menu-sub-header">
+               Positional Depth Charts
+              </div>
+              Batters:
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=C">
+               C
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=1B">
+               1B
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=2B">
+               2B
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=SS">
+               SS
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=3B">
+               3B
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=LF">
+               LF
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=CF">
+               CF
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=RF">
+               RF
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=DH">
+               DH
+              </a>
+              <br/>
+              Pitchers:
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=SP">
+               SP
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/depthcharts.aspx?position=RP">
+               RP
+              </a>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="roster-resource">
+            <div class="menu-item-label">
+             RosterResource
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-header">
+               Current Depth Charts
+              </div>
+              <table class="menu-team-table">
+               <tbody>
+                <tr>
+                 <td>
+                  <div class="menu-sub-header">
+                   AL East
+                  </div>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/blue-jays">
+                   Blue Jays
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/orioles">
+                   Orioles
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/rays">
+                   Rays
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/red-sox">
+                   Red Sox
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/yankees">
+                   Yankees
+                  </a>
+                  <br/>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   AL Central
+                  </div>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/cleveland">
+                   Guardians
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/royals">
+                   Royals
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/tigers">
+                   Tigers
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/twins">
+                   Twins
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/white-sox">
+                   White Sox
+                  </a>
+                  <br/>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   AL West
+                  </div>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/angels">
+                   Angels
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/astros">
+                   Astros
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/athletics">
+                   Athletics
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/mariners">
+                   Mariners
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/rangers">
+                   Rangers
+                  </a>
+                  <br/>
+                 </td>
+                </tr>
+                <tr>
+                 <td>
+                  <div class="menu-sub-header">
+                   NL East
+                  </div>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/braves">
+                   Braves
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/marlins">
+                   Marlins
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/mets">
+                   Mets
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/nationals">
+                   Nationals
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/phillies">
+                   Phillies
+                  </a>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   NL Central
+                  </div>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/brewers">
+                   Brewers
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/cardinals">
+                   Cardinals
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/cubs">
+                   Cubs
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/pirates">
+                   Pirates
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/reds">
+                   Reds
+                  </a>
+                 </td>
+                 <td>
+                  <div class="menu-sub-header">
+                   NL West
+                  </div>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/diamondbacks">
+                   D-backs
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/dodgers">
+                   Dodgers
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/giants">
+                   Giants
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/padres">
+                   Padres
+                  </a>
+                  <br/>
+                  <a href="//www.fangraphs.com/roster-resource/depth-charts/rockies">
+                   Rockies
+                  </a>
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+             </div>
+             <div class="menu-sub-header">
+              In-Season Tools
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/closer-depth-chart">
+               2023 Closer Depth Chart
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/injury-report">
+               2023 Injury Report
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/lineup-tracker/padres">
+               2023 Lineup Tracker
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/payroll/padres">
+               2023 Payroll Pages
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/probables-grid">
+               2023 Probables Grid
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/schedule-grid">
+               2023 Schedule Grid
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/transaction-tracker">
+               2023 Transaction Tracker
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a aria-label="Minor League Power Rankings Leaderboards" href="https://www.fangraphs.com/roster-resource/minor-league-power-rankings">
+               2023 Minor League Power Rankings
+              </a>
+              <br/>
+             </div>
+             <div class="menu-sub-header">
+              Offseason Tools
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/opening-day-tracker">
+               2023 Opening Day Tracker
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/offseason-tracker">
+               2023 Offseason Tracker
+              </a>
+             </div>
+             <div class="menu-sub-link">
+              <a href="//www.fangraphs.com/roster-resource/free-agent-tracker">
+               2023 Free Agent Tracker
+              </a>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="prospects" id="menuProspects">
+            <div class="menu-item-label">
+             Prospects
+            </div>
+            <div class="menu-sub">
+             <div class="menusub-mid">
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/prospects">
+                Prospects Home
+               </a>
+              </div>
+              <a aria-label="The Board" href="https://www.fangraphs.com/prospects/the-board">
+               The Board
+              </a>
+              <br/>
+              <a href="//www.fangraphs.com/prospects/the-board-scouting-and-stats">
+               The Board: Scouting + Stats!
+              </a>
+              <br/>
+              <a href="//blogs.fangraphs.com/how-to-use-the-board-a-tutorial-2022/">
+               How To Use The Board: A Tutorial
+              </a>
+              <br/>
+              <a aria-label="Farm System Rankings" href="https://www.fangraphs.com/prospects/farm-system-rankings">
+               Farm System Rankings
+              </a>
+              <br/>
+              <hr/>
+              <div class="menu-sub-link">
+               <a aria-label="Farm System Rankings" href="https://www.fangraphs.com/prospects/list">
+                Top Prospects List
+               </a>
+              </div>
+              <div class="team-box_team-box__f2Hzd">
+               <div>
+                <div class="team-box_season-toggle__aWlyO">
+                 <span class="team-box_team-box__button__hS_Ak team-box_highlight__Z7K6h">
+                  2023
+                 </span>
+                 <span class="team-box_team-box__button__hS_Ak">
+                  2022
+                 </span>
+                </div>
+                <div class="team-box_team-box__grid__ojjah">
+                 <div class="team-box_team-box__grid__league__vkEKs">
+                  <div class="team-box_label-lg__0P91X">
+                   AL
+                  </div>
+                  <table>
+                   <tbody>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/baltimore-orioles-top-38-prospects-2023">
+                       BAL
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/chicago-white-sox-top-26-prospects-2023">
+                       CHW
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/los-angeles-angels-top-x-prospects-2023">
+                       LAA
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/boston-red-sox-top-46-prospects-2023">
+                       BOS
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/cleveland-guardians-top-50-prospects-2023">
+                       CLE
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/oakland-athletics-top-26-prospects-2023">
+                       OAK
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/new-york-yankees-top-44-prospects">
+                       NYY
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/detroit-tigers-top-34-prospects">
+                       DET
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/seattle-mariners-top-31-prospects-2023">
+                       SEA
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/tampa-bay-rays-top-48-prospects-2023">
+                       TBR
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/kansas-city-royals-top-42-prospects-2023">
+                       KCR
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/texas-rangers-top-43-prospects">
+                       TEX
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/toronto-blue-jays-top-41-prospects-2023">
+                       TOR
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/minnesota-twins-top-36-prospects-2023">
+                       MIN
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/houston-astros-top-38-prospects-2023">
+                       HOU
+                      </a>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </div>
+                 <div class="team-box_team-box__grid__league__vkEKs">
+                  <div class="team-box_label-lg__0P91X">
+                   NL
+                  </div>
+                  <table>
+                   <tbody>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/atlanta-braves-top-30-prospects-2023">
+                       ATL
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/chicago-cubs-top-52-prospects-2023">
+                       CHC
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/arizona-diamondbacks-top-44-prospects-2023">
+                       ARI
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/miami-marlins-top-29-prospects-2023">
+                       MIA
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/cincinnati-reds-top-46-prospects-2023">
+                       CIN
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/colorado-rockies-top-40-prospects-2023">
+                       COL
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/washington-nationals-top-31-prospects-2023">
+                       WSN
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/milwaukee-brewers-top-38-prospects-2023">
+                       MIL
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/los-angeles-dodgers-top-51-prospects-2023">
+                       LAD
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/new-york-mets-top-37-prospects-2023">
+                       NYM
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/pittsburgh-pirates-top-43-prospects-2023">
+                       PIT
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/san-diego-padres-top-39-prospects">
+                       SDP
+                      </a>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/philadelphia-phillies-top-33-prospects-2023">
+                       PHI
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/st-louis-cardinals-top-32-prospects-2023">
+                       STL
+                      </a>
+                     </td>
+                     <td>
+                      <a href="https://blogs.fangraphs.com/san-francisco-giants-top-49-prospects-2023">
+                       SFG
+                      </a>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </div>
+                </div>
+               </div>
+               <a href="https://blogs.fangraphs.com/2023-top-100-prospects/" style="display:inline-block;padding:12px 0 0">
+                2023 Preseason Top 100
+               </a>
+              </div>
+             </div>
+            </div>
+           </li>
+           <li class="menu-item" data-full="true" data-sub="glossary">
+            <div class="menu-item-label">
+             Glossary
+            </div>
+            <div class="menu-sub">
+             <div class="menusub_mid">
+              <div class="menu-sub-link">
+               <a href="//www.fangraphs.com/library/">
+                Library
+               </a>
+              </div>
+              <div class="menu-sub-header">
+               Batting Stats
+              </div>
+              <a href="//www.fangraphs.com/library/offense/woba/">
+               wOBA
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/offense/wrc/">
+               wRC+
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/offense/iso/">
+               ISO
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/offense/rate-stats/">
+               K% &amp; BB%
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/offense/">
+               more...
+              </a>
+              <div class="menu-sub-header">
+               Pitching Stats
+              </div>
+              <a href="//www.fangraphs.com/library/pitching/fip/">
+               FIP
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/pitching/xfip/">
+               xFIP
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/pitching/babip/">
+               BABIP
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/pitching/rate-stats/">
+               K/9 &amp; BB/9
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/pitching/">
+               more...
+              </a>
+              <div class="menu-sub-header">
+               Defensive Stats
+              </div>
+              <a href="//www.fangraphs.com/blogs/the-fangraphs-uzr-primer/">
+               UZR Primer
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/defense/drs/">
+               DRS
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/defense/fsr/">
+               FSR
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/defense/tz-tzl/">
+               TZ &amp; TZL
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/defense/">
+               more...
+              </a>
+              <div class="menu-sub-header">
+               More
+              </div>
+              <a href="//www.fangraphs.com/library/misc/war/">
+               WAR
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/blogs/ultimate-base-running-primer/">
+               UBR Primer
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/misc/wpa/">
+               WPA
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/misc/li/">
+               LI
+              </a>
+              ,
+              <!-- -->
+              <a href="//www.fangraphs.com/library/misc/clutch/">
+               Clutch
+              </a>
+              <div class="menu-sub-header">
+               Guts!
+              </div>
+              <a href="//www.fangraphs.com/guts.aspx?type=cn">
+               Seasonal Constants
+              </a>
+              <br/>
+              <a href="//www.fangraphs.com/guts.aspx?type=pf&amp;teamid=0&amp;season=2022">
+               Park Factors
+              </a>
+              <br/>
+              <a href="//www.fangraphs.com/guts.aspx?type=pfh&amp;teamid=0&amp;season=2022">
+               Park Factors by Handedness
+              </a>
+             </div>
+            </div>
+           </li>
+           <li class="nav-fill">
+           </li>
+           <li class="menu-item" data-full="true" data-sub="login">
+            <a href="http://www.fangraphs.com/blogs/wp-login.php?redirect_to=null">
+             <div class="menu-item-label">
+              <div class="label-account">
+               Sign In
+              </div>
+              <div class="icon-account signed-out">
+              </div>
+             </div>
+            </a>
+           </li>
+          </ul>
+         </div>
+        </nav>
+       </div>
+      </div>
+      <script id="__NEXT_DATA__" type="application/json">
+       {"props":{"appProps":{"theme":{"theme-fg":"light"},"header":{"banner":{"chatText":null,"chatLink":"https://www.fangraphs.com/fantasy/ottoneu-sp-drip-finding-under-rostered-starters-sept-19","defaultText":"","defaultLink":"","defaultLink2":"","chatBoolean":false}},"footer":{"loadtime":"2023-09-19T10:36:35"},"nav":{"blogs":[{"title":"A Hardball Times Update","url":"//www.fangraphs.com/tht/a-hardball-times-update","blog":"tht"},{"title":"Get Your Opening Day Results Here","url":"//www.fangraphs.com/tht/get-your-opening-day-results-here","blog":"tht"},{"title":"Jay Jaffe FanGraphs Chat - 9/19/23","url":"//www.fangraphs.com/blogs/jay-jaffe-fangraphs-chat-9-19-23","blog":"blogs"},{"title":"For One Night, Wainwright Summons Vintage Form to Claim 200th Win","url":"//www.fangraphs.com/blogs/for-one-night-wainwright-summons-vintage-form-to-claim-200th-win","blog":"blogs"},{"title":"Can Cristian Mena and Nick Nastrini Miss Bats in the Big Leagues?","url":"//www.fangraphs.com/blogs/can-cristian-mena-and-nick-nastrini-miss-bats-in-the-big-leagues","blog":"blogs"},{"title":"What Makes Freddie Freeman Special, in One At-Bat","url":"//www.fangraphs.com/blogs/what-makes-freddie-freeman-special-in-one-at-bat","blog":"blogs"},{"title":"Big Kid Adds (Week 26)","url":"//www.fangraphs.com/fantasy/big-kid-adds-week-26","blog":"fantasy"},{"title":"Ottoneu SP Drip: Finding Under-rostered Starters","url":"//www.fangraphs.com/fantasy/ottoneu-sp-drip-finding-under-rostered-starters-sept-19","blog":"fantasy"},{"title":"Starting Pitchers Aren’t Leaning On Their Best Pitches","url":"//www.fangraphs.com/community/starting-pitchers-arent-leaning-on-their-best-pitches","blog":"community"}],"scores":"\u003ctable class=\"menu-scores-table\"\u003e\r\n                                    \u003ctbody\u003e\r\n                                        \u003ctr\u003e\r\n                                            \u003ctd\u003e\u003cdiv class=\"menu-sub-header\"\u003eAL Games\u003c/div\u003e\u003ctable\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Royals\u0026dh=0\u0026season=2023\"\u003eCLE (2) @ KCR (7) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eB - 5th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Yankees\u0026dh=0\u0026season=2023\"\u003eTOR (4) @ NYY (1) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eT - 8th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Rays\u0026dh=0\u0026season=2023\"\u003eLAA (2) @ TBR (6) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eFinal\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Rangers\u0026dh=0\u0026season=2023\"\u003eBOS (3) @ TEX (1) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eT - 5th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Astros\u0026dh=0\u0026season=2023\"\u003eBAL (5) @ HOU (3) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eB - 4th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSEA @ OAK\u003c/td\u003e\u003ctd class=\"alignR\"\u003e21:40\u003c/td\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/td\u003e\u003ctd class=\"menu-table-sep\"\u003e\u003c/td\u003e\u003ctd\u003e\u003cdiv class=\"menu-sub-header\"\u003eNL Games\u003c/div\u003e\u003ctable\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Braves\u0026dh=0\u0026season=2023\"\u003ePHI (3) @ ATL (9) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eT - 7th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Cubs\u0026dh=0\u0026season=2023\"\u003ePIT (0) @ CHC (2) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eB - 1st\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Reds\u0026dh=0\u0026season=2023\"\u003eMIN (7) @ CIN (0) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eT - 8th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Marlins\u0026dh=0\u0026season=2023\"\u003eNYM (3) @ MIA (3) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eB - 9th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Nationals\u0026dh=0\u0026season=2023\"\u003eCHW (3) @ WSN (4) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eFinal\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003ca href=\"https://www.fangraphs.com/livewins.aspx?date=2023-09-19\u0026team=Cardinals\u0026dh=0\u0026season=2023\"\u003eMIL (5) @ STL (2) \u003c/a\u003e\u003c/td\u003e\u003ctd class=\"alignR\"\u003eT - 5th\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSFG @ ARI\u003c/td\u003e\u003ctd class=\"alignR\"\u003e21:40\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCOL @ SDP\u003c/td\u003e\u003ctd class=\"alignR\"\u003e21:40\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eDET @ LAD\u003c/td\u003e\u003ctd class=\"alignR\"\u003e22:10\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e","standings":[{"teamid":21,"shortName":"Astros","AbbName":"HOU","League":"AL","Division":"W","W":84,"L":67,"GB":0},{"teamid":16,"shortName":"Braves","AbbName":"ATL","League":"NL","Division":"E","W":96,"L":54,"GB":0},{"teamid":2,"shortName":"Orioles","AbbName":"BAL","League":"AL","Division":"E","W":94,"L":56,"GB":0},{"teamid":23,"shortName":"Brewers","AbbName":"MIL","League":"NL","Division":"C","W":84,"L":66,"GB":0},{"teamid":22,"shortName":"Dodgers","AbbName":"LAD","League":"NL","Division":"W","W":92,"L":57,"GB":0},{"teamid":8,"shortName":"Twins","AbbName":"MIN","League":"AL","Division":"C","W":79,"L":72,"GB":0},{"teamid":11,"shortName":"Mariners","AbbName":"SEA","League":"AL","Division":"W","W":82,"L":68,"GB":1.5},{"teamid":13,"shortName":"Rangers","AbbName":"TEX","League":"AL","Division":"W","W":82,"L":68,"GB":1.5},{"teamid":12,"shortName":"Rays","AbbName":"TBR","League":"AL","Division":"E","W":93,"L":59,"GB":2},{"teamid":18,"shortName":"Reds","AbbName":"CIN","League":"NL","Division":"C","W":79,"L":73,"GB":6},{"teamid":17,"shortName":"Cubs","AbbName":"CHC","League":"NL","Division":"C","W":78,"L":72,"GB":6},{"teamid":5,"shortName":"Guardians","AbbName":"CLE","League":"AL","Division":"C","W":72,"L":79,"GB":7},{"teamid":6,"shortName":"Tigers","AbbName":"DET","League":"AL","Division":"C","W":70,"L":80,"GB":8.5},{"teamid":14,"shortName":"Blue Jays","AbbName":"TOR","League":"AL","Division":"E","W":83,"L":67,"GB":11},{"teamid":15,"shortName":"Diamondbacks","AbbName":"ARI","League":"NL","Division":"W","W":79,"L":72,"GB":14},{"teamid":27,"shortName":"Pirates","AbbName":"PIT","League":"NL","Division":"C","W":70,"L":80,"GB":14},{"teamid":26,"shortName":"Phillies","AbbName":"PHI","League":"NL","Division":"E","W":82,"L":68,"GB":14},{"teamid":1,"shortName":"Angels","AbbName":"LAA","League":"AL","Division":"W","W":68,"L":83,"GB":16},{"teamid":30,"shortName":"Giants","AbbName":"SFG","League":"NL","Division":"W","W":76,"L":74,"GB":16.5},{"teamid":28,"shortName":"Cardinals","AbbName":"STL","League":"NL","Division":"C","W":67,"L":83,"GB":17},{"teamid":9,"shortName":"Yankees","AbbName":"NYY","League":"AL","Division":"E","W":76,"L":74,"GB":18},{"teamid":20,"shortName":"Marlins","AbbName":"MIA","League":"NL","Division":"E","W":78,"L":73,"GB":18.5},{"teamid":3,"shortName":"Red Sox","AbbName":"BOS","League":"AL","Division":"E","W":75,"L":76,"GB":19.5},{"teamid":29,"shortName":"Padres","AbbName":"SDP","League":"NL","Division":"W","W":73,"L":78,"GB":20},{"teamid":4,"shortName":"White Sox","AbbName":"CHW","League":"AL","Division":"C","W":58,"L":94,"GB":21.5},{"teamid":25,"shortName":"Mets","AbbName":"NYM","League":"NL","Division":"E","W":70,"L":80,"GB":26},{"teamid":7,"shortName":"Royals","AbbName":"KCR","League":"AL","Division":"C","W":49,"L":102,"GB":30},{"teamid":24,"shortName":"Nationals","AbbName":"WSN","League":"NL","Division":"E","W":67,"L":85,"GB":30},{"teamid":19,"shortName":"Rockies","AbbName":"COL","League":"NL","Division":"W","W":56,"L":94,"GB":36.5},{"teamid":10,"shortName":"Athletics","AbbName":"OAK","League":"AL","Division":"W","W":46,"L":104,"GB":37.5}],"topProspects":[{"cat":"Rangers,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-07-09T10:00:23","post_title":"Texas Rangers Top 43 Prospects","post_author":81295,"post_name":"texas-rangers-top-43-prospects","comment_count":16,"id":416938,"term_taxonomy_id":4032},{"cat":"Cubs,Prospect List,Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2023-07-07T10:00:54","post_title":"Chicago Cubs Top 52 Prospects","post_author":214976,"post_name":"chicago-cubs-top-52-prospects-2023","comment_count":46,"id":416784,"term_taxonomy_id":4032},{"cat":"Padres,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-07-05T09:00:04","post_title":"San Diego Padres Top 39 Prospects","post_author":81295,"post_name":"san-diego-padres-top-39-prospects","comment_count":63,"id":416612,"term_taxonomy_id":4032},{"cat":"Mariners,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-07-04T09:00:03","post_title":"Seattle Mariners Top 32 Prospects","post_author":81295,"post_name":"seattle-mariners-top-31-prospects-2023","comment_count":41,"id":416446,"term_taxonomy_id":4032},{"cat":"Royals,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-07-03T09:00:13","post_title":"Kansas City Royals Top 42 Prospects","post_author":81295,"post_name":"kansas-city-royals-top-42-prospects-2023","comment_count":39,"id":416388,"term_taxonomy_id":4032},{"cat":"Giants,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2023-06-30T09:00:20","post_title":"San Francisco Giants Top 49 Prospects","post_author":214976,"post_name":"san-francisco-giants-top-49-prospects-2023","comment_count":19,"id":416274,"term_taxonomy_id":4032},{"cat":"Rockies,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-06-27T09:00:38","post_title":"Colorado Rockies Top 39 Prospects","post_author":81295,"post_name":"colorado-rockies-top-40-prospects-2023","comment_count":54,"id":415999,"term_taxonomy_id":4032},{"cat":"Athletics,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Tess Taruskin","post_date":"2023-06-26T10:00:15","post_title":"Oakland Athletics Top 28 Prospects","post_author":196273,"post_name":"oakland-athletics-top-26-prospects-2023","comment_count":44,"id":415874,"term_taxonomy_id":4032},{"cat":"Diamondbacks,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-06-23T09:00:18","post_title":"Arizona Diamondbacks Top 44 Prospects","post_author":81295,"post_name":"arizona-diamondbacks-top-44-prospects-2023","comment_count":38,"id":415429,"term_taxonomy_id":4032},{"cat":"Angels,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-06-15T10:05:42","post_title":"Los Angeles Angels Top 28 Prospects","post_author":81295,"post_name":"los-angeles-angels-top-x-prospects-2023","comment_count":47,"id":415024,"term_taxonomy_id":4032},{"cat":"Red Sox,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-06-12T09:00:02","post_title":"Boston Red Sox Top 46 Prospects","post_author":81295,"post_name":"boston-red-sox-top-46-prospects-2023","comment_count":51,"id":414782,"term_taxonomy_id":4032},{"cat":"Astros,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2023-06-09T09:00:19","post_title":"Houston Astros Top 38 Prospects","post_author":214976,"post_name":"houston-astros-top-38-prospects-2023","comment_count":36,"id":414457,"term_taxonomy_id":4032},{"cat":"Nationals,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-06-06T09:00:56","post_title":"Washington Nationals Top 31 Prospects","post_author":81295,"post_name":"washington-nationals-top-31-prospects-2023","comment_count":57,"id":414294,"term_taxonomy_id":4032},{"cat":"Twins,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-06-02T09:00:36","post_title":"Minnesota Twins Top 36 Prospects","post_author":81295,"post_name":"minnesota-twins-top-36-prospects-2023","comment_count":23,"id":413975,"term_taxonomy_id":4032},{"cat":"Marlins,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-05-31T09:00:09","post_title":"Miami Marlins Top 29 Prospects","post_author":81295,"post_name":"miami-marlins-top-29-prospects-2023","comment_count":33,"id":413859,"term_taxonomy_id":4032},{"cat":"Cardinals,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2023-05-26T09:00:15","post_title":"St. Louis Cardinals Top 32 Prospects","post_author":214976,"post_name":"st-louis-cardinals-top-32-prospects-2023","comment_count":35,"id":413523,"term_taxonomy_id":4032},{"cat":"Mets,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-05-24T09:00:11","post_title":"New York Mets Top 37 Prospects","post_author":81295,"post_name":"new-york-mets-top-37-prospects-2023","comment_count":59,"id":413181,"term_taxonomy_id":4032},{"cat":"Tigers,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-05-15T09:00:20","post_title":"Detroit Tigers Top 34 Prospects","post_author":81295,"post_name":"detroit-tigers-top-34-prospects","comment_count":68,"id":412687,"term_taxonomy_id":4032},{"cat":"Braves,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2023-04-20T09:00:58","post_title":"Atlanta Braves Top 30 Prospects","post_author":214976,"post_name":"atlanta-braves-top-30-prospects-2023","comment_count":33,"id":410570,"term_taxonomy_id":4032},{"cat":"Blue Jays,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2023-03-14T09:00:51","post_title":"Toronto Blue Jays Top 41 Prospects","post_author":214976,"post_name":"toronto-blue-jays-top-41-prospects-2023","comment_count":18,"id":407923,"term_taxonomy_id":4032},{"cat":"Yankees,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-03-06T09:00:13","post_title":"New York Yankees Top 44 Prospects","post_author":81295,"post_name":"new-york-yankees-top-44-prospects","comment_count":118,"id":407423,"term_taxonomy_id":4032},{"cat":"Orioles,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-02-03T09:00:59","post_title":"Baltimore Orioles Top 38 Prospects","post_author":81295,"post_name":"baltimore-orioles-top-38-prospects-2023","comment_count":83,"id":405412,"term_taxonomy_id":4032},{"cat":"Rays,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-01-27T09:00:58","post_title":"Tampa Bay Rays Top 48 Prospects","post_author":81295,"post_name":"tampa-bay-rays-top-48-prospects-2023","comment_count":51,"id":404870,"term_taxonomy_id":4032},{"cat":"Guardians,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-01-20T09:00:15","post_title":"Cleveland Guardians Top 50 Prospects","post_author":81295,"post_name":"cleveland-guardians-top-50-prospects-2023","comment_count":88,"id":404293,"term_taxonomy_id":4032},{"cat":"Reds,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2023-01-13T09:00:04","post_title":"Cincinnati Reds Top 46 Prospects","post_author":81295,"post_name":"cincinnati-reds-top-46-prospects-2023","comment_count":44,"id":403735,"term_taxonomy_id":4032},{"cat":"White Sox,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-12-23T09:00:23","post_title":"Chicago White Sox Top 26 Prospects","post_author":81295,"post_name":"chicago-white-sox-top-26-prospects-2023","comment_count":25,"id":402342,"term_taxonomy_id":4032},{"cat":"Brewers,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2023","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-12-20T09:00:02","post_title":"Milwaukee Brewers Top 39 Prospects","post_author":81295,"post_name":"milwaukee-brewers-top-38-prospects-2023","comment_count":47,"id":401898,"term_taxonomy_id":4032},{"cat":"Mets,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-07-11T09:00:54","post_title":"New York Mets Top 30 Prospects","post_author":81295,"post_name":"new-york-mets-top-30-prospects-2022","comment_count":72,"id":390506,"term_taxonomy_id":3988},{"cat":"Astros,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-07-08T09:00:38","post_title":"Houston Astros Top 33 Prospects","post_author":81295,"post_name":"houston-astros-top-33-prospects-2022","comment_count":35,"id":390420,"term_taxonomy_id":3988},{"cat":"Nationals,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-07-05T09:00:01","post_title":"Washington Nationals Top 29 Prospects","post_author":81295,"post_name":"washington-nationals-top-29-prospects-2022","comment_count":71,"id":390248,"term_taxonomy_id":3988},{"cat":"Cardinals,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-07-01T09:00:40","post_title":"St. Louis Cardinals Top 34 Prospects","post_author":81295,"post_name":"st-louis-cardinals-top-34-prospects-2022","comment_count":67,"id":390172,"term_taxonomy_id":3988},{"cat":"Marlins,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-06-24T09:00:34","post_title":"Miami Marlins Top 35 Prospects","post_author":81295,"post_name":"miami-marlins-top-35-prospects-2022","comment_count":28,"id":389859,"term_taxonomy_id":3988},{"cat":"Braves,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-06-17T09:00:05","post_title":"Atlanta Braves Top 31 Prospects","post_author":81295,"post_name":"atlanta-braves-top-31-prospects-2022","comment_count":42,"id":389517,"term_taxonomy_id":3988},{"cat":"Rangers,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-06-06T09:00:30","post_title":"Texas Rangers Top 50 Prospects","post_author":81295,"post_name":"texas-rangers-top-50-prospects-2022","comment_count":68,"id":388984,"term_taxonomy_id":3988},{"cat":"Royals,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2022-05-27T09:00:51","post_title":"Kansas City Royals Top 47 Prospects","post_author":214976,"post_name":"kansas-city-royals-top-47-prospects-2022","comment_count":50,"id":388415,"term_taxonomy_id":3988},{"cat":"Padres,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-05-19T09:00:17","post_title":"San Diego Padres Top 35 Prospects","post_author":81295,"post_name":"san-diego-padres-top-35-prospects-2022","comment_count":45,"id":388129,"term_taxonomy_id":3988},{"cat":"Mariners,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-05-13T09:00:59","post_title":"Seattle Mariners Top 31 Prospects","post_author":81295,"post_name":"seattle-mariners-top-31-prospects-2022","comment_count":71,"id":387746,"term_taxonomy_id":3988},{"cat":"Dodgers,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-05-06T09:00:21","post_title":"Los Angeles Dodgers Top 51 Prospects","post_author":81295,"post_name":"los-angeles-dodgers-top-51-prospects-2022","comment_count":94,"id":387350,"term_taxonomy_id":3988},{"cat":"White Sox,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-04-27T09:00:12","post_title":"Chicago White Sox Top 28 Prospects","post_author":81295,"post_name":"chicago-white-sox-top-28-prospects-2022","comment_count":60,"id":386706,"term_taxonomy_id":3988},{"cat":"Guardians,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-04-19T09:00:20","post_title":"Cleveland Guardians Top 48 Prospects","post_author":81295,"post_name":"cleveland-guardians-top-48-prospects-2022","comment_count":59,"id":386302,"term_taxonomy_id":3988},{"cat":"Reds,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2022-04-11T09:00:21","post_title":"Cincinnati Reds Top 45 Prospects","post_author":214976,"post_name":"cincinnati-reds-top-45-prospects-2022","comment_count":19,"id":385830,"term_taxonomy_id":3988},{"cat":"Rays,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-03-23T09:00:13","post_title":"Tampa Bay Rays Top 59 Prospects","post_author":81295,"post_name":"tampa-bay-rays-top-59-prospects-2022","comment_count":85,"id":384912,"term_taxonomy_id":3988},{"cat":"Red Sox,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Kevin Goldstein and Tess Taruskin","post_date":"2022-03-11T09:00:49","post_title":"Boston Red Sox Top 51 Prospects","post_author":226167,"post_name":"boston-red-sox-top-51-prospects-2022","comment_count":34,"id":383895,"term_taxonomy_id":3988},{"cat":"Twins,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2022-03-08T09:00:00","post_title":"Minnesota Twins Top 40 Prospects","post_author":214976,"post_name":"minnesota-twins-top-39-prospects-2022","comment_count":19,"id":383591,"term_taxonomy_id":3988},{"cat":"Orioles,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Kevin Goldstein","post_date":"2022-02-09T09:00:36","post_title":"Baltimore Orioles Top 45 Prospects","post_author":210562,"post_name":"baltimore-orioles-top-45-prospects","comment_count":139,"id":382332,"term_taxonomy_id":3988},{"cat":"Pirates,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-02-04T10:00:00","post_title":"Pittsburgh Pirates Top 61 Prospects","post_author":81295,"post_name":"pittsburgh-pirates-top-61-prospects","comment_count":88,"id":382103,"term_taxonomy_id":3988},{"cat":"Giants,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Kevin Goldstein and Tess Taruskin","post_date":"2022-02-01T09:00:54","post_title":"San Francisco Giants Top 39 Prospects","post_author":226167,"post_name":"san-francisco-giants-top-39-prospects-2022","comment_count":44,"id":381944,"term_taxonomy_id":3988},{"cat":"Rockies,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2022-01-27T09:30:25","post_title":"Colorado Rockies Top 36 Prospects","post_author":81295,"post_name":"colorado-rockies-top-36-prospects","comment_count":40,"id":381508,"term_taxonomy_id":3988},{"cat":"Diamondbacks,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Brendan Gawlowski and Eric Longenhagen","post_date":"2022-01-19T09:00:20","post_title":"Arizona Diamondbacks Top 46 Prospects","post_author":224541,"post_name":"arizona-diamondbacks-top-46-prospects-2022","comment_count":38,"id":381234,"term_taxonomy_id":3988},{"cat":"Yankees,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Kevin Goldstein","post_date":"2022-01-14T09:00:49","post_title":"New York Yankees Top 40 Prospects","post_author":210562,"post_name":"new-york-yankees-top-38-prospects-2022","comment_count":61,"id":381018,"term_taxonomy_id":3988},{"cat":"Phillies,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2022-01-12T09:00:30","post_title":"Philadelphia Phillies Top 41 Prospects","post_author":214976,"post_name":"philadelphia-phillies-top-41-prospects-2022","comment_count":32,"id":380816,"term_taxonomy_id":3988},{"cat":"Tigers,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Kevin Goldstein","post_date":"2022-01-07T09:00:28","post_title":"Detroit Tigers Top 34 Prospects","post_author":210562,"post_name":"detroit-tigers-top-34-prospects-2022","comment_count":38,"id":380558,"term_taxonomy_id":3988},{"cat":"Blue Jays,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Brendan Gawlowski and Eric Longenhagen","post_date":"2022-01-04T09:00:05","post_title":"Toronto Blue Jays Top 34 Prospects","post_author":224541,"post_name":"toronto-blue-jays-top-37-prospects-2022","comment_count":28,"id":380334,"term_taxonomy_id":3988},{"cat":"Brewers,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen","post_date":"2021-12-29T09:00:21","post_title":"Milwaukee Brewers Top 36 Prospects","post_author":81295,"post_name":"milwaukee-brewers-top-37-prospects-2022","comment_count":34,"id":380209,"term_taxonomy_id":3988},{"cat":"Athletics,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Kevin Goldstein","post_date":"2021-12-16T09:00:41","post_title":"Oakland Athletics Top 43 Prospects","post_author":210562,"post_name":"oakland-athletics-top-33-prospects","comment_count":40,"id":379750,"term_taxonomy_id":3988},{"cat":"Cubs,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Eric Longenhagen and Tess Taruskin","post_date":"2021-12-13T09:00:55","post_title":"Top 49 Prospects: Chicago Cubs","post_author":214976,"post_name":"top-49-prospects-chicago-cubs-2","comment_count":24,"id":379567,"term_taxonomy_id":3988},{"cat":"Angels,Featured,Prospect List,Prospects,Featured Prospects,Prospects Report 2022","Location":"blogs","mainlink":"https://blogs.fangraphs.com/","display_name":"Brendan Gawlowski and Eric Longenhagen","post_date":"2021-12-08T09:00:24","post_title":"Top 41 Prospects: Los Angeles Angels","post_author":224541,"post_name":"top-41-prospects-los-angeles-angels","comment_count":31,"id":379273,"term_taxonomy_id":3988}],"topProspectsCombined":[{"timeframe":"report","cat":"Angels","mainlink":"https://blogs.fangraphs.com/","post_name":"top-41-prospects-los-angeles-angels","season":2022},{"timeframe":"report","cat":"Orioles","mainlink":"https://blogs.fangraphs.com/","post_name":"baltimore-orioles-top-45-prospects","season":2022},{"timeframe":"report","cat":"Red Sox","mainlink":"https://blogs.fangraphs.com/","post_name":"boston-red-sox-top-51-prospects-2022","season":2022},{"timeframe":"report","cat":"White Sox","mainlink":"https://blogs.fangraphs.com/","post_name":"chicago-white-sox-top-28-prospects-2022","season":2022},{"timeframe":"report","cat":"Guardians","mainlink":"https://blogs.fangraphs.com/","post_name":"cleveland-guardians-top-48-prospects-2022","season":2022},{"timeframe":"report","cat":"Tigers","mainlink":"https://blogs.fangraphs.com/","post_name":"detroit-tigers-top-34-prospects-2022","season":2022},{"timeframe":"report","cat":"Royals","mainlink":"https://blogs.fangraphs.com/","post_name":"kansas-city-royals-top-47-prospects-2022","season":2022},{"timeframe":"report","cat":"Twins","mainlink":"https://blogs.fangraphs.com/","post_name":"minnesota-twins-top-39-prospects-2022","season":2022},{"timeframe":"report","cat":"Yankees","mainlink":"https://blogs.fangraphs.com/","post_name":"new-york-yankees-top-38-prospects-2022","season":2022},{"timeframe":"report","cat":"Athletics","mainlink":"https://blogs.fangraphs.com/","post_name":"oakland-athletics-top-33-prospects","season":2022},{"timeframe":"report","cat":"Mariners","mainlink":"https://blogs.fangraphs.com/","post_name":"seattle-mariners-top-31-prospects-2022","season":2022},{"timeframe":"report","cat":"Rays","mainlink":"https://blogs.fangraphs.com/","post_name":"tampa-bay-rays-top-59-prospects-2022","season":2022},{"timeframe":"report","cat":"Rangers","mainlink":"https://blogs.fangraphs.com/","post_name":"texas-rangers-top-50-prospects-2022","season":2022},{"timeframe":"report","cat":"Blue Jays","mainlink":"https://blogs.fangraphs.com/","post_name":"toronto-blue-jays-top-37-prospects-2022","season":2022},{"timeframe":"report","cat":"Diamondbacks","mainlink":"https://blogs.fangraphs.com/","post_name":"arizona-diamondbacks-top-46-prospects-2022","season":2022},{"timeframe":"report","cat":"Braves","mainlink":"https://blogs.fangraphs.com/","post_name":"atlanta-braves-top-31-prospects-2022","season":2022},{"timeframe":"report","cat":"Cubs","mainlink":"https://blogs.fangraphs.com/","post_name":"top-49-prospects-chicago-cubs-2","season":2022},{"timeframe":"report","cat":"Reds","mainlink":"https://blogs.fangraphs.com/","post_name":"cincinnati-reds-top-45-prospects-2022","season":2022},{"timeframe":"report","cat":"Rockies","mainlink":"https://blogs.fangraphs.com/","post_name":"colorado-rockies-top-36-prospects","season":2022},{"timeframe":"report","cat":"Marlins","mainlink":"https://blogs.fangraphs.com/","post_name":"miami-marlins-top-35-prospects-2022","season":2022},{"timeframe":"report","cat":"Astros","mainlink":"https://blogs.fangraphs.com/","post_name":"houston-astros-top-33-prospects-2022","season":2022},{"timeframe":"report","cat":"Dodgers","mainlink":"https://blogs.fangraphs.com/","post_name":"los-angeles-dodgers-top-51-prospects-2022","season":2022},{"timeframe":"report","cat":"Brewers","mainlink":"https://blogs.fangraphs.com/","post_name":"milwaukee-brewers-top-37-prospects-2022","season":2022},{"timeframe":"report","cat":"Nationals","mainlink":"https://blogs.fangraphs.com/","post_name":"washington-nationals-top-29-prospects-2022","season":2022},{"timeframe":"report","cat":"Mets","mainlink":"https://blogs.fangraphs.com/","post_name":"new-york-mets-top-30-prospects-2022","season":2022},{"timeframe":"report","cat":"Phillies","mainlink":"https://blogs.fangraphs.com/","post_name":"philadelphia-phillies-top-41-prospects-2022","season":2022},{"timeframe":"report","cat":"Pirates","mainlink":"https://blogs.fangraphs.com/","post_name":"pittsburgh-pirates-top-61-prospects","season":2022},{"timeframe":"report","cat":"Cardinals","mainlink":"https://blogs.fangraphs.com/","post_name":"st-louis-cardinals-top-34-prospects-2022","season":2022},{"timeframe":"report","cat":"Padres","mainlink":"https://blogs.fangraphs.com/","post_name":"san-diego-padres-top-35-prospects-2022","season":2022},{"timeframe":"report","cat":"Giants","mainlink":"https://blogs.fangraphs.com/","post_name":"san-francisco-giants-top-39-prospects-2022","season":2022},{"timeframe":"report","cat":"Angels","mainlink":"https://blogs.fangraphs.com/","post_name":"los-angeles-angels-top-x-prospects-2023","season":2023},{"timeframe":"report","cat":"Orioles","mainlink":"https://blogs.fangraphs.com/","post_name":"baltimore-orioles-top-38-prospects-2023","season":2023},{"timeframe":"report","cat":"Red Sox","mainlink":"https://blogs.fangraphs.com/","post_name":"boston-red-sox-top-46-prospects-2023","season":2023},{"timeframe":"report","cat":"White Sox","mainlink":"https://blogs.fangraphs.com/","post_name":"chicago-white-sox-top-26-prospects-2023","season":2023},{"timeframe":"report","cat":"Guardians","mainlink":"https://blogs.fangraphs.com/","post_name":"cleveland-guardians-top-50-prospects-2023","season":2023},{"timeframe":"report","cat":"Tigers","mainlink":"https://blogs.fangraphs.com/","post_name":"detroit-tigers-top-34-prospects","season":2023},{"timeframe":"report","cat":"Royals","mainlink":"https://blogs.fangraphs.com/","post_name":"kansas-city-royals-top-42-prospects-2023","season":2023},{"timeframe":"report","cat":"Twins","mainlink":"https://blogs.fangraphs.com/","post_name":"minnesota-twins-top-36-prospects-2023","season":2023},{"timeframe":"report","cat":"Yankees","mainlink":"https://blogs.fangraphs.com/","post_name":"new-york-yankees-top-44-prospects","season":2023},{"timeframe":"report","cat":"Athletics","mainlink":"https://blogs.fangraphs.com/","post_name":"oakland-athletics-top-26-prospects-2023","season":2023},{"timeframe":"report","cat":"Mariners","mainlink":"https://blogs.fangraphs.com/","post_name":"seattle-mariners-top-31-prospects-2023","season":2023},{"timeframe":"report","cat":"Rays","mainlink":"https://blogs.fangraphs.com/","post_name":"tampa-bay-rays-top-48-prospects-2023","season":2023},{"timeframe":"report","cat":"Rangers","mainlink":"https://blogs.fangraphs.com/","post_name":"texas-rangers-top-43-prospects","season":2023},{"timeframe":"report","cat":"Blue Jays","mainlink":"https://blogs.fangraphs.com/","post_name":"toronto-blue-jays-top-41-prospects-2023","season":2023},{"timeframe":"report","cat":"Diamondbacks","mainlink":"https://blogs.fangraphs.com/","post_name":"arizona-diamondbacks-top-44-prospects-2023","season":2023},{"timeframe":"report","cat":"Braves","mainlink":"https://blogs.fangraphs.com/","post_name":"atlanta-braves-top-30-prospects-2023","season":2023},{"timeframe":"report","cat":"Cubs","mainlink":"https://blogs.fangraphs.com/","post_name":"chicago-cubs-top-52-prospects-2023","season":2023},{"timeframe":"report","cat":"Reds","mainlink":"https://blogs.fangraphs.com/","post_name":"cincinnati-reds-top-46-prospects-2023","season":2023},{"timeframe":"report","cat":"Rockies","mainlink":"https://blogs.fangraphs.com/","post_name":"colorado-rockies-top-40-prospects-2023","season":2023},{"timeframe":"report","cat":"Marlins","mainlink":"https://blogs.fangraphs.com/","post_name":"miami-marlins-top-29-prospects-2023","season":2023},{"timeframe":"report","cat":"Astros","mainlink":"https://blogs.fangraphs.com/","post_name":"houston-astros-top-38-prospects-2023","season":2023},{"timeframe":"report","cat":"Dodgers","mainlink":"https://blogs.fangraphs.com/","post_name":"los-angeles-dodgers-top-51-prospects-2023","season":2023},{"timeframe":"report","cat":"Brewers","mainlink":"https://blogs.fangraphs.com/","post_name":"milwaukee-brewers-top-38-prospects-2023","season":2023},{"timeframe":"report","cat":"Nationals","mainlink":"https://blogs.fangraphs.com/","post_name":"washington-nationals-top-31-prospects-2023","season":2023},{"timeframe":"report","cat":"Mets","mainlink":"https://blogs.fangraphs.com/","post_name":"new-york-mets-top-37-prospects-2023","season":2023},{"timeframe":"report","cat":"Phillies","mainlink":"https://blogs.fangraphs.com/","post_name":"philadelphia-phillies-top-33-prospects-2023","season":2023},{"timeframe":"report","cat":"Pirates","mainlink":"https://blogs.fangraphs.com/","post_name":"pittsburgh-pirates-top-43-prospects-2023","season":2023},{"timeframe":"report","cat":"Cardinals","mainlink":"https://blogs.fangraphs.com/","post_name":"st-louis-cardinals-top-32-prospects-2023","season":2023},{"timeframe":"report","cat":"Padres","mainlink":"https://blogs.fangraphs.com/","post_name":"san-diego-padres-top-39-prospects","season":2023},{"timeframe":"report","cat":"Giants","mainlink":"https://blogs.fangraphs.com/","post_name":"san-francisco-giants-top-49-prospects-2023","season":2023}]},"path":"/__dotnet-shim/nav"},"__N_SSP":true,"pageProps":{}},"page":"/__dotnet-shim/nav","query":{},"buildId":"CO8z1a_YA5m75j4e0u14k","isFallback":false,"gssp":true,"appGip":true}
+      </script>
+      <!-- NJS.Cache.H 2023-09-19 21:26:56-->
+      <div class="header-chat-alert" id="divHeaderChat">
+       <a class="header-chat-alert-text">
+       </a>
+      </div>
+     </header>
+     <div class="header__ra-unit ra-wide" style="margin:0px auto 0px; display:block;">
+      <div class="catchall728" id="ezoic-pub-ad-placeholder-104" style="margin-bottom:20px;">
+      </div>
+     </div>
+    </div>
+    <style>
+    </style>
+   </div>
+   <div id="content" style="position: relative;">
+    <script>
+     window.GLOBAL_PLAYER_PAGE = {
+                                            bl1974: true,
+                                            bl2002: true,
+                                            bl2007: true,
+                                            bl2015: true,
+                                            maxSeason: 2023,
+                                            maxSeasonKBO: 0,
+                                            playerId: '10155',
+                                            arrPitchTypePFX: ['FA','SL','SI','FT','CH','CU','FC','KC','FS','KN','EP','FO','CS'],
+                                            arrPitchType: ['FA','SI','SL','CU','CH','FC','FS','','KN','CS'],
+                                            hasMLB: true,
+                                            hasMinor: true,
+                                            hasKBO: false,
+                                            hasStatsP: false,
+                                            hasStatsB: true,
+                                            position: 'OF',
+                                            positionPrimary: 'OF',
+                                            serviceTime: '11.070',
+                                            yearSplits: {
+                                                    pit: [],
+                                                    bat: [{label: 2023, value: 2023},{label: 2022, value: 2022},{label: 2021, value: 2021},{label: 2020, value: 2020},{label: 2019, value: 2019},{label: 2018, value: 2018},{label: 2017, value: 2017},{label: 2016, value: 2016},{label: 2015, value: 2015},{label: 2014, value: 2014},{label: 2013, value: 2013},{label: 2012, value: 2012},{label: 2011, value: 2011}]
+                                                },
+                                            yearPlays: {
+                                                pit: [],
+                                                bat: [{label: 2023, value: 2023},{label: 2022, value: 2022},{label: 2021, value: 2021},{label: 2020, value: 2020},{label: 2019, value: 2019},{label: 2018, value: 2018},{label: 2017, value: 2017},{label: 2016, value: 2016},{label: 2015, value: 2015},{label: 2014, value: 2014},{label: 2013, value: 2013},{label: 2012, value: 2012},{label: 2011, value: 2011}]
+                                            },
+                                            maxLoad: "9/19/2023 10:36:35 AM",
+                                            shouldHideMinorLegacy: 0,
+                                            STAFF_FEATURE_FLAG: false
+                                        };
+    </script>
+    <div class="player-info-new">
+     <div class="player-info-box">
+      <div class="player-info-box-header" data-team-color="LAA">
+       <div class="player-info-box-name">
+        <h1>
+         Mike Trout
+        </h1>
+        <div class="player-info-box-name-team">
+         <a href="/teams/angels">
+          Los Angeles Angels
+         </a>
+        </div>
+       </div>
+       <div class="player-info-box-item">
+        Age: 32
+       </div>
+       <div class="player-info-box-item">
+        Bats/Throws: R/R
+       </div>
+       <div class="player-info-box-item">
+        6' 2" / 235
+       </div>
+       <div class="player-info-box-pos">
+        OF
+       </div>
+      </div>
+      <div class="player-info-box__wrapper">
+       <div class="player-info-box__content">
+        <table class="player-info-bio">
+         <tr class="player-info__bio-birthdate">
+          <th>
+           Birthdate:
+          </th>
+          <td>
+           8/7/1991 (32 y, 1 m, 12 d)
+          </td>
+         </tr>
+         <tr class="player-info__bio-draft">
+          <th>
+           Drafted:
+          </th>
+          <td colspan="4">
+           2009 June Amateur Draft - Round: 1, Pick: 25, Overall: 25, Team: Los Angeles Angels
+          </td>
+         </tr>
+         <tr class="player-info__bio-contract" id="portal-player-info__bio-contract">
+         </tr>
+         <tr class="player-info__bio-aav" id="portal-player-info__bio-aav">
+         </tr>
+         <tr class="player-info__bio-rr-details">
+          <th class="tool-tip-container">
+           <span class="dashed-underline">
+            Service Time
+           </span>
+           :
+           <div class="tool-tip-item">
+            Reported as the pre-2023 value.
+            <br/>
+            11 years and 70 days days of service time.
+           </div>
+          </th>
+          <td>
+           11.070
+          </td>
+          <th class="tool-tip-container">
+           <span class="dashed-underline">
+            Free Agent
+           </span>
+           :
+           <div class="tool-tip-item">
+            Becomes a free agent entering the 2031 season, after the conclusion of the 2030 season.
+           </div>
+          </th>
+          <td>
+           2031
+          </td>
+          <th class="tool-tip-container">
+           <span class="dashed-underline">
+            MiLB Options
+           </span>
+           :
+           <div class="tool-tip-item">
+            Reported as the pre-2023 season number of waiver options remaining.
+           </div>
+          </th>
+          <td>
+           n/a
+          </td>
+         </tr>
+        </table>
+       </div>
+       <div id="portal-dashboard-skinny">
+       </div>
+       <div id="portal-prospects-report">
+       </div>
+       <tr>
+        <td>
+         <div class="player-page-rotowire">
+          <strong>
+           <a href="https://www.rotowire.com/baseball/player/mike-trout-10956">
+            RotoWire News
+           </a>
+           :
+          </strong>
+          Trout (wrist) will join the Angels' for their six-game road trip this week and will start swinging the bat soon, Erica Weston of Bally Sports West reports. (9/18/2023)
+          <div class="spacer_5">
+          </div>
+          <b>
+           Injury:
+          </b>
+          Wrist, 10-Day IL
+          <div class="spacer_5">
+          </div>
+         </div>
+        </td>
+       </tr>
+       <div id="portal-articles">
+       </div>
+      </div>
+      <div class="player-info-box__ra" id="portal-ra">
+      </div>
+     </div>
+     <div class="player-info-box__bottom">
+      <div id="portal-profile">
+      </div>
+     </div>
+    </div>
+   </div>
+   <br/>
+   <div style="width:100%; max-width:600px; display:flex; margin:auto;">
+    <script id="68f19c2a490f4dc68e9091134269d484">
+     (new Image()).src = 'https://capi.connatix.com/tr/si?token=5287323a-dd8e-44b7-9b46-8072524851eb&cid=9da7fbbc-d20c-4a09-a66b-cf285ed98fa5';  cnx.cmd.push(function() {    cnx({      playerId: "5287323a-dd8e-44b7-9b46-8072524851eb"    }).render("68f19c2a490f4dc68e9091134269d484");  });
+    </script>
+   </div>
+   <br/>
+   <div id="portal-player-pages-menu">
+   </div>
+   <div id="root-player-pages">
+   </div>
+  </div>
+  <div id="footer">
+   <div id="member_pops">
+   </div>
+   <div class="ra-wide box-ra ra-member-hide">
+    <div class="catchall728" id="ezoic-pub-ad-placeholder-124" style="">
+    </div>
+   </div>
+   <br/>
+   <div class="footer-bar">
+    <div class="footer-bar-background">
+     <div class="footer-bar-item">
+     </div>
+    </div>
+    <div class="footer-bar-item">
+     <span class="mobile-hide">
+      Updated: Tuesday, September 19, 2023 10:36 AM ET
+     </span>
+     <span class="mobile-show">
+      Updated: 9/19/2023 10:36 AM ET
+     </span>
+    </div>
+    <div class="footer-bar-item" style="text-align: center; margin: auto;">
+     <a href="https://twitter.com/fangraphs">
+      @fangraphs
+     </a>
+     -
+     <a href="https://blogs.fangraphs.com/contact/">
+      Contact Us
+     </a>
+     -
+     <a href="https://blogs.fangraphs.com/advertise/">
+      Advertise
+     </a>
+     -
+     <a href="https://www.fangraphs.com/about/terms-of-service">
+      Terms of Service
+     </a>
+     -
+     <a href="https://www.fangraphs.com/about/privacy-policy">
+      Privacy Policy
+     </a>
+    </div>
+   </div>
+   <div class="footer-credits">
+    <div class="footer-credits-item item-half-wide">
+     <a class="footer-credits-item-name" href="https://www.sportsinfosolutions.com/">
+      <img alt="sis_logo" src="//www.fangraphs.com/images/sis_logo_100.png"/>
+     </a>
+     <div class="footer-credits-item-text">
+      All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+     </div>
+    </div>
+    <div class="footer-credits-item item-half-wide">
+     <a class="footer-credits-item-name" href="http://www.mlb.com">
+      <img alt="mlb logo" src="//www.fangraphs.com/images/mlb_logo.png"/>
+     </a>
+     <div class="footer-credits-item-text">
+      Major League and Minor League Baseball data provided by Major League Baseball.
+     </div>
+    </div>
+    <div class="footer-credits-item">
+     <div class="footer-credits-item-name">
+      Mitchel Lichtman
+     </div>
+     <div class="footer-credits-item-text">
+      All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+     </div>
+    </div>
+    <div class="footer-credits-item">
+     <a class="footer-credits-item-name" href="http://www.tangotiger.com">
+      TangoTiger.com
+     </a>
+     <div class="footer-credits-item-text">
+      All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+     </div>
+    </div>
+    <div class="footer-credits-item">
+     <a class="footer-credits-item-name" href="http://www.retrosheet.org">
+      Retrosheet.org
+     </a>
+     <div class="footer-credits-item-text">
+      Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+     </div>
+    </div>
+   </div>
+   <div id="footer-membership">
+   </div>
+   <div class="ra-wide box-ra ra-member-hide">
+    <div class="catchall728" id="ezoic-pub-ad-placeholder-113" style="">
+    </div>
+   </div>
+   <!-- Quantcast Tag -->
+   <script type="text/javascript">
+    window._qevents = window._qevents || [];
+
+    (function () {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+
+    window._qevents.push({
+        qacct: "p-8dBx9wgQFa1M6"
+    });
+   </script>
+   <noscript>
+    <div style="display:none;">
+     <img alt="Quantcast" border="0" height="1" src="//pixel.quantserve.com/pixel/p-8dBx9wgQFa1M6.gif" width="1"/>
+    </div>
+   </noscript>
+   <!-- End Quantcast tag -->
+   <!-- Clicky Tag -->
+   <script type="text/javascript">
+    var clicky_site_ids = clicky_site_ids || [];
+    clicky_site_ids.push(100553825);
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//static.getclicky.com/js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+    })();
+   </script>
+   <noscript>
+    <p>
+     <img alt="Clicky" height="1" src="//in.getclicky.com/100553825ns.gif" width="1"/>
+    </p>
+   </noscript>
+   <script>
+    FGWebsite_head_section.buildEzoicAds();
+    FGWebsite_head_section.buildEzoicAdsData();
+   </script>
+   <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-757YGY2LKP">
+   </script>
+   <script>
+    fetch(
+          "//plus.fangraphs.com/?fgapi_ajax", {
+  credentials: "include"
+}).then(response => response.json())
+  .then(json => { userType = json.group;
+
+                    if (userType == '4') {userType = 'Member Ad Free';}
+                    else if (userType == '3') {userType = 'Member';}
+                    else if (!!window.ezstandalone == false && !!window.ayManagerEnv == false) {
+                        if (userType == '1') {userType = 'Registered Ad Block';}
+                        else {userType = 'Ad Block'}
+                    }                    
+                    else if (userType == '1') {userType = 'Registered';}
+                    else {userType = 'Visitor';}
+
+
+                //Google Tags
+
+                window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+
+    gtag('config', 'G-757YGY2LKP');
+
+    gtag('set', 'user_properties', {'member_user': userType });
+
+}
+);
+   </script>
+  </div>
+  <script src="https://www.fangraphs.com/dist/player_pages_new-bundle.js?v=4e279543928cf1617938">
+  </script>
+ </body>
+</html>
